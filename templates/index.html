@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* Reset some default styles for better consistency */
+        body,
+        ul {
+            margin: 0;
+            padding: 0;
+        }
+        /* Style the navigation bar */
+        nav {
+            background-color: #9de992;
+        }
+
+        ul {
+            list-style-type: none;
+            overflow: hidden;
+        }
+
+        li {
+            float: left;
+        }
+
+        /* Style the navigation links */
+        a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+        /* Change the color on hover */
+        a:hover {
+            background-color: #db1d1d;
+            color: black;
+        }
+        i{
+            size: 500px;
+        }
+        h1,h5 {
+            text-align: center;
+            }
+
+    </style>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="">Home</a></li>
+            <li><a href="{% url 'registration' %}">Vendor Registration</a></li>
+            <li><a href="{% url 'registration' %}">Costomer Registration</a></li>  
+        </ul>
+    </nav>
+   <h1>First let's eat and do everthing else....! </h1>
+   <h5>Food may be essentaial as fuel for body,But Good food is the fuel for Soul....</h5>
+   
+</body>
+</html>
